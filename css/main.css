@@ -2,6 +2,87 @@
 
 
 /* Start the CSS*/
+@font-face {
+    font-family: '20_dbregular';
+    src: url('../font/20db-webfont.woff2') format('woff2'),
+         url('../font/20db-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '20_dbregular';
+    src: url('../font/20db-webfont.woff2') format('woff2'),
+         url('../font/20db-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: '20_dbregular';
+    src: url('../font/20db-webfont.woff2') format('woff2'),
+         url('../font/20db-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '20_dbregular';
+    src: url('../font/20db-webfont.woff2') format('woff2'),
+         url('../font/20db-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../font/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../font/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../font/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../font/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../font/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../font/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../font/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../font/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../font/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../font/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -22,29 +103,36 @@ body {
 }
 
 h1 {
-
+	font-family: 'alex_brushregular'
+	font-style: bold;
 }
 
 h2 {
-
+	font-family: 'alex_brushregular'
+	font-style: normal;
 }
 
-h3 {
 
+h3 {
+	font-family: 'alex_brushregular'
+	font-style: normal;
 }
 
 h4 {
-
+	font-family: 'alex_brushregular'
+	font-style: normal;
 }
 
 h5 {
-
+	font-family: 'alex_brushregular'
+	font-style: italic;
 }
 
 h6 {
-
+	font-family: 'alex_brushregular'
+	font-style: normal;
 }
 
 p {
-
+	font-family: '20_dbregular'
 }
